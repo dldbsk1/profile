@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>🐰 이유나</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <div id="element">문자열</div>
+  <button id="myButton">🍀</button>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="./20220988.js"></script>
+  <body style="overflow-y: scroll;">
+    <header></header>
+    <div id="progress-bar"></div>
+    <div class="container">
+    <nav class="menu-bar">
+      <div class="index">
+        <!-- 프로필 이미지 -->
+        <div class="img">
+          <img id="porfile-img" src="./웹/rabbit1.jpg" alt="png" />
+          <br><br><br><br><br>
+          <!-- 목차 내용 -->
+          <h3><a href="#CAT">CAT</a></h3>
+          <h3><a href="#TRAVEL">TRAVEL</a></h3>
+          <h3><a href="#MUSIC">MUSIC</a></h3>
+          <h3><a href="#MOVIE">MOVIE</a></h3>
+          <h1 id="date"></h1>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <section id="CAT">
+    <!-- 이름 -->
+    <br><br><br><br><br>
+    <header class="name">
+      <p><span>🐈‍⬛ CAT</span></p>
+    </header>
+    <!-- 소개글 -->
+    <article class="main-introduction">
+      <table>
+      <tr><td>😸 호두</td></tr>
+      <tr><td>🎂 2019.05.05</td></tr>
+      <tr><td>😺 노르웨이숲</td></tr>
+      <tr><td>🐈 수컷</td></tr>
+      </table>
+    </article>
+    <br><br>
+    <!-- 이미지 -->
+    <footer class="images">
+      <img src="./웹/image1.jpg" alt="image" style="width: 200px; height: 200px;" />
+      <img src="./웹/image2.jpg" alt="image" style="width: 200px; height: 200px;" />
+      <img src="./웹/image3.jpg" alt="image" style="width: 200px; height: 200px;" />
+      <img src="./웹/image4.jpg" alt="image" style="width: 200px; height: 200px;" />
+      <img src="./웹/image5.jpg" alt="image" style="width: 200px; height: 200px;" />
+      <img src="./웹/image6.jpg" alt="image" style="width: 200px; height: 200px;" />
+    </footer>
+    <br><br><br><br><br>
+  </section>
+  <section id="TRAVEL">
+    <p style="font-size: 50px; margin-left: 50px; margin-top: 0px;"><span>✈ TRAVEL</span></p>
+    <!-- 상단 텍스트 & 사진 -->
+    <div class="contents1">
+      <p class="title"><span>JEJU</span>&nbsp<span style="color: #2B3856;"></span>&nbsp<span class="year">2022.08</span>
+      </p>
+      <img src="./웹/image8.jpg">
+      <img src="./웹/image9.jpg">
+      <img src="./웹/image10.jpg">
+      <img src="./웹/image7.jpg">
+      <img src="./웹/image11.jpg">
+      <img src="./웹/image13.jpg">
+    </div>
+    <!-- 하단 텍스트 & 사진 -->
+    <div class="contents2">
+      <p class="title"><span>JAPAN</span>&nbsp<span style="color: #2B3856;">OSAKA</span>&nbsp<span class="year">2023.03
+      </p>
+      <img src="./웹/14.jpg">
+      <img src="./웹/15.jpg">
+      <img src="./웹/16.jpg">
+      <img src="./웹/17.jpg">
+      <img src="./웹/18.jpg">
+      <img src="./웹/19.jpg">
+      <img src="./웹/20.jpg">
+      <img src="./웹/21.jpg">
+      <img src="./웹/22.jpg">
+      <img src="./웹/23.jpg">
+      <img src="./웹/24.jpg">
+    </div>
+  </section>
+  <br><br><br><br>
+  <section>
+    <section id="MUSIC">
+      <h1 class="title"><span>🎧 MUSIC</span>
+        <br><br>
+        <div>
+          <img src="./웹/1111.jpeg" alt="image" />
+          <p>🎧 태연 - 11:11 </p>
+        </div>
+        <div>
+          <img src="./웹/tree.jpg" alt="image">
+          <p>🎧 카더가든 - 나무 </p>
+        </div>
+        <div>
+          <img src="./웹/lucy.jpg" alt="image">
+          <p>🎧 LUCY - 개화 </p>
+        </div>
+        <div>
+          <img src="./웹/305.webp" alt="image">
+          <p>🎧 Shawn Mendes - 305 </p>
+        </div>
+        </div>
+    </section>
+  </section>
+  <section>
+    <section id="MOVIE">
+      <h1 class="title"><span>🎥 MOVIE</span>
+        <br>
+        <div>
+          <p>🎬 클래식 </p>
+          <img src="./웹/classic.jpeg" alt="image" />
+        </div>
+        <div>
+          <p>🎬 주토피아 </p>
+          <img src="./웹/zoo.jpg" alt="image">
+        </div>
+        <div>
+          <p>🎬 트루먼쇼 </p>
+          <img src="./웹/true.jpeg" alt="image">
+        </div>
+    </section>
+  </section>
+</body>
+<footer>
+  <p class="title">방명록_✏️</p>
+  <form method="post" action="post.php">
+    <label for="name">이름:</label>
+    <input type="text" name="name" id="name"><br>
+    <label for="text">메시지:</label>
+    <textarea name="text" id="message"></textarea><br>
+    <input type="submit" value="등록">
+  </form>
+  <button id="scrollToTopButton">🔝</button>
+  <br><br>
+</footer>
+</html>
